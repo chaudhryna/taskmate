@@ -5,17 +5,20 @@ Taskmate is a task manager web application built with Django. The aim of this pr
 
 ## Screenshots
 
-![App Screenshot](<img width="1345" alt="taskmate-index" src="https://github.com/chaudhryna/taskmate/assets/19597150/e1518ea0-5a43-4a18-b3a7-fc5ddfa7f51f">
+![App Screenshot]( <img width="1345" alt="taskmate-index" src="https://github.com/chaudhryna/taskmate/assets/19597150/654048c5-2310-463e-8acf-f1412a0f147a">
 )
 
-![App Screenshot](<img width="1341" alt="all-tasks" src="https://github.com/chaudhryna/taskmate/assets/19597150/b0cf6383-a459-44ef-9dad-092a709b62b7">
+![App Screenshot](<img width="1341" alt="all-tasks" src="https://github.com/chaudhryna/taskmate/assets/19597150/a9a5479f-75a7-414d-814b-cb752adda3fb">
+
 )
 
-![App Screenshot](<img width="1341" alt="login" src="https://github.com/chaudhryna/taskmate/assets/19597150/bceb1c3f-8d54-40cf-a31c-9151f7730512">
-)
+![App Screenshot](
+)<img width="1346" alt="register" src="https://github.com/chaudhryna/taskmate/assets/19597150/bdbf9979-5556-4718-b0ed-0145cbec9a3a">
 
-![App Screenshot](<img width="1346" alt="register" src="https://github.com/chaudhryna/taskmate/assets/19597150/535f0f5b-7751-4545-8ac6-9dc4b6d4c28a">
-)
+
+![App Screenshot](
+)<img width="1341" alt="login" src="https://github.com/chaudhryna/taskmate/assets/19597150/0879fc14-bd3d-485e-8de4-176c04616492">
+
 
 ## Demo
 
