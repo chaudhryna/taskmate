@@ -1,0 +1,46 @@
+{% extends 'base.html' %} 
+
+{% block title %} 
+Edit Todo | Taskmate 
+{% endblock title %} 
+
+{% block content %}
+<div class="container">
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        {% endfor %}
+    {% endif %}
+    <br>
+    <h1>Edit Task</h1>
+    {% if task_obj.owner == request.user %}
+    <form method="POST">
+        {% csrf_token %}
+            <div>
+                <input
+                    type="text"
+                    class="form-control"
+                    name="task"
+                    id="newTask"
+                    placeholder="{{ task_obj.task }}"
+                    value="{{ task_obj.task }}"
+                    />
+            </div>
+            <div class="form-check">
+                <input type="hidden" name="done" value="{{ task_obj.done }}">
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary mt-4">
+                    Update Task
+                </button>
+            </div>
+    </form>
+    {% else %}
+    <p>Access restricted to task owner.</p>
+    {% endif %}
+
+</div>
+{% endblock content %}
