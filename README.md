@@ -5,7 +5,7 @@ Taskmate is a task manager web application built with Django. The aim of this pr
 
 ## Screenshots
 
-![App Screenshot]( <img width="1345" alt="taskmate-index" src="https://github.com/chaudhryna/taskmate/assets/19597150/654048c5-2310-463e-8acf-f1412a0f147a">)
+<img width="1345" alt="taskmate-index" src="https://github.com/chaudhryna/taskmate/assets/19597150/654048c5-2310-463e-8acf-f1412a0f147a">
 
 ![App Screenshot](<img width="1341" alt="all-tasks" src="https://github.com/chaudhryna/taskmate/assets/19597150/a9a5479f-75a7-414d-814b-cb752adda3fb">)
 
